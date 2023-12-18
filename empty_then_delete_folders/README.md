@@ -12,7 +12,7 @@ Open a terminal and run
 
 `export SITE=uuid` Replace with the site UUID, which you can find from the Site Dashboard URL or terminus site:info $sitename --field=id
 
-* Open delete.sh and add the folders to be deleted
+* Edit delete.sh and add the folders to be deleted, and the file path if needed.
 * run chmod +x delete.sh
 * run `./delete.sh`
 
